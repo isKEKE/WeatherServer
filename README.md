@@ -130,7 +130,7 @@ screen -r weather[会话名称]
 ```python
 WeatherServer
 |__apps			# 核心代码
-	|__`__init__.py` 	# 封装代码
+    |__`__init__.py` 	# 封装代码
     |__weather 			# 天气预报蓝图
      	|__view.py			# 蓝图文件
     	|__module			# 蓝图功能
