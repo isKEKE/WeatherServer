@@ -170,7 +170,8 @@ import requests
 def main() -> None:
     url = "http://hostname/weather"
     data = {
-        "verify": "VERIFY_KEY"
+        "pwd": "VERIFY_KEY",
+        "city": "CITY_ID"
     }
     response = requests.post(url, data=data)
     print(response.json())
